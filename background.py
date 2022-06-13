@@ -7,7 +7,7 @@ def unzipFiles():
     with open('./converted_keras/labels.txt') as f:
         lines = f.readlines()
     f.close()
-    gloal labels
+    global labels
     labels = []
     for x in lines:
             labels.append(x[x.find(' ')+1:len(x)-1])
