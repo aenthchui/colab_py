@@ -11,6 +11,7 @@ def unzipFiles():
     labels = []
     for x in lines:
             labels.append(x[x.find(' ')+1:len(x)-1])
+    return labels
 def inputString():
     import ipywidgets
     children = [ipywidgets.Text(description=name) for name in ['Text:']*len(labels)]
