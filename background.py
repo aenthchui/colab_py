@@ -1,4 +1,5 @@
 import shutil
+global labels
 labels=[]
 lines=[]
 fileRead = False
