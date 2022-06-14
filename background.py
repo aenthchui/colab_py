@@ -1,4 +1,5 @@
 import shutil
+import IPython
 fileRead = False
 def unzipFiles():
     global lines
@@ -19,4 +20,5 @@ def inputString():
     tab.children = children
     for i in range(len(labels)):
         tab.set_title(i, labels[i])
-    tab
+    return tab
+
